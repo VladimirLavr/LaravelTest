@@ -15,27 +15,14 @@
 </head>
 
 <body>
-
-
-
-
     <div class="container">
         <div class="row">
             <div class="col-8">
-                @yield ('content')
-
-
-
-
-            </div>
-
-
-            <div class="container mt-5">
-
                 @include('includes.messages')
-                @yield('about')
+                @yield ('content')
             </div>
-
+            <div class="container mt-5">
+            </div>
         </div>
     </div>
 
