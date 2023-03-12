@@ -9,10 +9,10 @@
 
 
 <div class="alert alert-info">
-    <p> Адресс отправителя:{{$data->from}}</p>
-    <p> Адресс получателя:{{$data->to}}</p>
+    <p> Адресс отправителя: {{$data->from}}</p>
+    <p> Адресс получателя: {{$data->to}}</p>
     @if($data->copy)
-    <p> Адресс копии получателя :{{$data->copy}}</p>
+    <p> Адресс копии получателя : {{$data->copy}}</p>
     @endif
 
 </div>
