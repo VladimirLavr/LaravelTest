@@ -14,6 +14,10 @@
     @if($data->copy)
     <p> Адресс копии получателя :{{$data->copy}}</p>
     @endif
+
+</div>
+<div class="alert alert-info">
+
     <iframe srcdoc='{{$data->body}}' frameborder="0"></iframe>
 </div>
 
