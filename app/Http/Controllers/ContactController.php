@@ -83,7 +83,7 @@ class ContactController extends Controller
             $mail->Subject = $contactRequest->subject;
             $mail->Body    = $contactRequest->Body;
 
-            // $mail->AltBody = plain text version of email body;
+
 
 
             return  view('messages', ['uuid' => $uuid]);
