@@ -38,7 +38,7 @@ class ContactRequest extends FormRequest
         return [
             'from.required' => 'Введите верно адресс отправителя',
             'to.required' => 'Введите верно адресс получателя',
-            'copy.email' => 'Введите верно адресс получателя',
+            'copy.email' => 'Введите верно адресс(КОПИИ) получателя',
             'subject.required' => 'Введите тему сообщения',
             'type.required' => 'Поле ТИП не заполнено',
             'body.required' => ' Поле Сообщение не заполнено',
